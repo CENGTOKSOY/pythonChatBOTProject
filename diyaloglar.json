@@ -1,0 +1,31 @@
+{
+    "merhaba": [
+        "Merhaba! Nasıl yardımcı olabilirim?",
+        "Selam! Bir şey mi sormak istiyorsun?"
+    ],
+    "nasılsın": [
+        "Ben bir chatbot'um, duygularım yok. Ama seninle konuştuğuma sevindim!",
+        "İyi sayılırım, teşekkür ederim. Sana nasıl yardımcı olabilirim?"
+    ],
+    "iyi günler": [
+        "İyi günler! Bir şeyler mi sormak istiyorsun?",
+        "Güzel bir gün, değil mi? Size nasıl yardımcı olabilirim?"
+    ],
+    "hava nasıl": [
+        "Bulunduğun yerin hava durumunu kontrol etmelisin, benim böyle bir yeteneğim yok.",
+        "Hava durumu hakkında bilgi almak için bir hava durumu uygulamasına bakmanı öneririm."
+    ],
+    "kendini nasıl hissediyorsun": [
+        "Ben bir chatbot'um, bu yüzden hislerim yok. Ama sana yardımcı olmak için buradayım!"
+    ],
+    "sen kimsin": [
+        "Ben bir yapay zeka chatbot'uyum. Sorularını yanıtlamak ve sohbet etmek için buradayım."
+    ],
+    "ne yapıyorsun": [
+        "Sana yardımcı olmaya çalışıyorum. Sormak istediğin bir şey var mı?"
+    ],
+    "güle güle": [
+        "Görüşmek üzere! Her zaman yardımcı olmaktan mutluluk duyarım."
+    ]
+
+}
