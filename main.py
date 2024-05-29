@@ -1,28 +1,42 @@
 import json
 import random
 
-# Diyalogları içeren JSON dosyasını yükle
-with open('diyaloglar.json', 'r', encoding='utf-8') as f:
-    dialoglar = json.load(f)
+def load_dialogs(file_path):
+    try:
+        with open(file_path, 'r', encoding='utf-8') as f:
+            return json.load(f)
+    except FileNotFoundError:
+        print("Dialog dosyası bulunamadı!")
+        return {}
+    except json.JSONDecodeError:
+        print("Dialog dosyası hatalı formatta!")
+        return {}
 
-def chatbot_ile_sohbet(istem):
-    """
-    Kullanıcının isteğine göre chatbot'un yanıtını döndürür.
-    """
-    # Kullanıcı isteğini küçük harfe çevir
-    istem = istem.lower()
-    # Eğer istem dialoglar içindeyse, karşılık gelen yanıtı döndür
+def save_dialogs(file_path, dialogs):
+    with open(file_path, 'w', encoding='utf-8') as f:
+        json.dump(dialogs, f, ensure_ascii=False, indent=4)
+
+def chatbot_ile_sohbet(istem, dialoglar):
+    istem = istem.lower().strip()
     if istem in dialoglar:
         return random.choice(dialoglar[istem])
     else:
-        # Eğer istem bilinmiyorsa, genel bir yanıt ver
         return "Üzgünüm, bunun hakkında konuşacak bilgiye sahip değilim."
 
-# Chatbot ile sohbet etmeyi deneyin
+dialoglar = load_dialogs('diyaloglar.json')
+
+print("Chatbot'a hoş geldiniz! Çıkış yapmak için 'çıkış' yazın.")
 while True:
     istem = input("Sen: ")
-    if istem == "çıkış":
+    if istem.lower().strip() == "çıkış":
         print("Chatbot: Görüşmek üzere!")
         break
-    yanit = chatbot_ile_sohbet(istem)
+    yanit = chatbot_ile_sohbet(istem, dialoglar)
     print(f"Chatbot: {yanit}")
+
+    # Yeni dialog eklemek için
+    if istem.lower().strip() == "yeni dialog ekle":
+        yeni_istem = input("Yeni istem: ").lower().strip()
+        yeni_yanit = input("Yeni yanıt: ").strip()
+        if yeni_istem in dialoglar:
+            dialoglar[yeni_istem].append(y
