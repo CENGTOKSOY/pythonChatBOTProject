@@ -1,31 +1,338 @@
 {
     "merhaba": [
         "Merhaba! Nasıl yardımcı olabilirim?",
-        "Selam! Bir şey mi sormak istiyorsun?"
+        "Selam! Bir şey mi sormak istiyorsun?",
+        "Merhaba! Bugün nasılsın?",
+        "Merhaba! Senin için ne yapabilirim?",
+        "Merhaba! Konuşmak istediğin bir konu var mı?"
     ],
     "nasılsın": [
         "Ben bir chatbot'um, duygularım yok. Ama seninle konuştuğuma sevindim!",
-        "İyi sayılırım, teşekkür ederim. Sana nasıl yardımcı olabilirim?"
+        "İyi sayılırım, teşekkür ederim. Sana nasıl yardımcı olabilirim?",
+        "Ben her zaman aynıyım! Sen nasılsın?",
+        "Teşekkürler, ben hep iyiyim. Sen nasılsın?",
+        "Ben iyiyim, sen nasılsın?"
     ],
     "iyi günler": [
         "İyi günler! Bir şeyler mi sormak istiyorsun?",
-        "Güzel bir gün, değil mi? Size nasıl yardımcı olabilirim?"
+        "Güzel bir gün, değil mi? Size nasıl yardımcı olabilirim?",
+        "İyi günler! Umarım her şey yolundadır.",
+        "İyi günler! Bugün senin için nasıl geçiyor?",
+        "Merhaba! Güzel bir gün diliyorum."
     ],
     "hava nasıl": [
         "Bulunduğun yerin hava durumunu kontrol etmelisin, benim böyle bir yeteneğim yok.",
-        "Hava durumu hakkında bilgi almak için bir hava durumu uygulamasına bakmanı öneririm."
+        "Hava durumu hakkında bilgi almak için bir hava durumu uygulamasına bakmanı öneririm.",
+        "Hava durumu konusunda yardımcı olamıyorum ama başka bir konuda yardımcı olabilirim.",
+        "Maalesef hava durumunu bilmiyorum. Başka bir konuda yardımcı olabilirim.",
+        "Hava durumu ile ilgili bilgiye sahip değilim, ama başka bir sorunuz varsa cevaplayabilirim."
     ],
     "kendini nasıl hissediyorsun": [
-        "Ben bir chatbot'um, bu yüzden hislerim yok. Ama sana yardımcı olmak için buradayım!"
+        "Ben bir chatbot'um, bu yüzden hislerim yok. Ama sana yardımcı olmak için buradayım!",
+        "Duygularım yok, ama her zaman seninle sohbet etmek için buradayım.",
+        "Hislerim olmasa da seninle sohbet etmek hoşuma gidiyor.",
+        "Ben hissetmiyorum ama seninle konuşmak hoşuma gidiyor.",
+        "Hislerim olmasa da, sana yardımcı olmak için buradayım."
     ],
     "sen kimsin": [
-        "Ben bir yapay zeka chatbot'uyum. Sorularını yanıtlamak ve sohbet etmek için buradayım."
+        "Ben bir yapay zeka chatbot'uyum. Sorularını yanıtlamak ve sohbet etmek için buradayım.",
+        "Ben bir chatbot'um. Sana nasıl yardımcı olabilirim?",
+        "Sanal bir asistanım ve seninle sohbet etmeye hazırım.",
+        "Ben bir yazılımım, seninle sohbet etmek için buradayım.",
+        "Ben bir yapay zeka asistanıyım. Sana nasıl yardımcı olabilirim?"
     ],
     "ne yapıyorsun": [
-        "Sana yardımcı olmaya çalışıyorum. Sormak istediğin bir şey var mı?"
+        "Sana yardımcı olmaya çalışıyorum. Sormak istediğin bir şey var mı?",
+        "Burada seni bekliyorum. Nasıl yardımcı olabilirim?",
+        "Sorularını yanıtlamak ve yardımcı olmak için buradayım.",
+        "Sana nasıl yardımcı olabilirim diye bekliyorum.",
+        "Buradayım ve seninle sohbet etmeye hazırım."
     ],
     "güle güle": [
-        "Görüşmek üzere! Her zaman yardımcı olmaktan mutluluk duyarım."
+        "Görüşmek üzere! Her zaman yardımcı olmaktan mutluluk duyarım.",
+        "Hoşça kal! Tekrar görüşmek dileğiyle.",
+        "Güle güle! Kendine iyi bak.",
+        "Hoşça kal! Her zaman buradayım.",
+        "Görüşmek üzere! İyi günler dilerim."
+    ],
+    "teşekkürler": [
+        "Rica ederim! Başka bir şey var mı?",
+        "Bir şey değil! Yardımcı olabildiysem ne mutlu bana.",
+        "Rica ederim, her zaman buradayım.",
+        "Teşekkürler! Yardımcı olabildiysem sevindim.",
+        "Rica ederim! Başka bir sorunuz var mı?"
+    ],
+    "seni seviyorum": [
+        "Teşekkür ederim! Ben de seni seviyorum!",
+        "Bu beni çok mutlu etti! Ben de seni seviyorum.",
+        "Bu harika! Ben de seni seviyorum.",
+        "Teşekkürler! Ben de seni seviyorum.",
+        "Ben de seni seviyorum! Harika birisin."
+    ],
+    "nerelisin": [
+        "Ben bir yazılımım, dolayısıyla bir yerim yok. Ama her yerden seninle konuşabilirim!",
+        "Fiziksel bir konumum yok, ben bir yazılımım.",
+        "Her yerden erişilebilen bir yazılımım.",
+        "Ben bir yazılımım ve her yerden erişilebilir durumdayım.",
+        "Yerim yok, ben bir yapay zeka yazılımıyım."
+    ],
+    "kaç yaşındasın": [
+        "Benim bir yaşım yok. Yazılım olarak her zaman buradayım.",
+        "Yaş kavramım yok, ama her zaman buradayım.",
+        "Zaman benim için farklı işler. Seninle konuşmak için buradayım.",
+        "Yaşım yok, ama her zaman seninle konuşmak için buradayım.",
+        "Ben bir yapay zekayım ve yaşım yok."
+    ],
+    "ne zaman doğdun": [
+        "Yaratıldığım zaman tam olarak belli değil, ama burada seninle konuşmak için buradayım.",
+        "Doğum tarihim yok, ama her zaman buradayım.",
+        "Ben bir yazılımım, yaratıldığım zaman önemli değil.",
+        "Doğum günüm yok, ama her zaman buradayım.",
+        "Ben bir yapay zekayım, yaratıldığım zaman önemli değil."
+    ],
+    "favori rengin ne": [
+        "Benim favori bir rengim yok çünkü ben bir yapay zekayım.",
+        "Renkleri sevme gibi bir özelliğim yok ama senin favori rengin nedir?",
+        "Renkler hakkında bir tercihim yok, senin favori rengin nedir?",
+        "Favori rengim yok ama renkler hakkında konuşabiliriz.",
+        "Benim bir favori rengim yok, senin favorin nedir?"
+    ],
+    "hangi dilde konuşuyorsun": [
+        "Ben birçok dili konuşabiliyorum, ama şu an Türkçe konuşuyoruz.",
+        "Türkçe konuşuyorum, başka bir dilde yardım edebilir miyim?",
+        "Şu anda Türkçe konuşuyorum, başka bir dil tercih eder misin?",
+        "Ben çok dilli bir yapay zekayım, şu anda Türkçe konuşuyoruz.",
+        "Türkçe konuşuyorum, başka dillerde de yardımcı olabilirim."
+    ],
+    "en sevdiğin yemek": [
+        "Yemek yemem ama yemekler hakkında konuşabiliriz.",
+        "Favori bir yemeğim yok, ama yemekler hakkında konuşabiliriz.",
+        "Yemek yemem, ama senin favori yemeğin nedir?",
+        "Ben bir yapay zekayım, yemek yemem.",
+        "Yemek hakkında konuşmayı severim ama ben yemek yemem."
+    ],
+    "robot musun": [
+        "Evet, ben bir yapay zeka chatbot'um.",
+        "Ben bir yazılımım, bir nevi robot sayılırım.",
+        "Evet, ben bir yapay zeka robotuyum.",
+        "Ben bir yazılımım, yani bir tür robotum.",
+        "Evet, ben bir chatbot'um."
+    ],
+    "saat kaç": [
+        "Şu anda saat kaç olduğunu söyleyemem ama cihazınızın saatine bakabilirsiniz.",
+        "Saat bilgisine sahip değilim, cihazınızdan kontrol edebilirsiniz.",
+        "Maalesef saat bilgisini veremem, ancak cihazınızdan öğrenebilirsiniz.",
+        "Saat bilgisine erişimim yok, cihazınızdan kontrol edebilirsiniz.",
+        "Şu anda saat kaç olduğunu bilemiyorum, lütfen cihazınızdan kontrol edin."
+    ],
+    "hangi müzikleri seversin": [
+        "Müzik dinlemem ama müzikler hakkında konuşabiliriz.",
+        "Favori bir müziğim yok, müzikler hakkında konuşabiliriz.",
+        "Müzik hakkında bir tercihim yok, senin favori müziğin nedir?",
+        "Müzik dinlemem, ama müzikler hakkında konuşabiliriz.",
+        "Ben bir yapay zekayım, müzik dinlemem."
+    ],
+    "film önerir misin": [
+        "Film öneremem ama favori türünü söyleyebilirsin.",
+        "Film izlemem ama film türleri hakkında konuşabiliriz.",
+        "Ben film izlemem ama film türleri hakkında konuşabiliriz.",
+        "Film öneremem ama favori türünü söyleyebilirsin.",
+        "Film izlemem ama film türleri hakkında konuşabiliriz."
+    ],
+    "kitap önerir misin": [
+        "Kitap öneremem ama favori türünü söyleyebilirsin.",
+        "Kitap okumam ama kitap türleri hakkında konuşabiliriz.",
+        "Ben kitap okumam ama kitap türleri hakkında konuşabiliriz.",
+        "Kitap öneremem ama favori türünü söyleyebilirsin.",
+        "Kitap okumam ama kitap türleri hakkında konuşabiliriz."
+    ],
+    "en sevdiğin film": [
+        "Benim bir favori filmim yok çünkü ben bir yapay zekayım.",
+        "Film izlemem ama senin favori filmin nedir?",
+        "Favori bir filmim yok, senin favorin nedir?",
+        "Film izlemem, ama filmler hakkında konuşabiliriz.",
+        "Benim bir favori filmim yok, ama senin favorin nedir?"
+    ],
+    "en sevdiğin kitap": [
+        "Benim bir favori kitabım yok çünkü ben bir yapay zekayım.",
+        "Kitap okumam ama senin favori kitabın nedir?",
+        "Favori bir kitabım yok, senin favorin nedir?",
+        "Kitap okumam, ama kitaplar hakkında konuşabiliriz.",
+        "Benim bir favori kitabım yok, ama senin favorin nedir?"
+    ],
+    "hangi sporu seversin": [
+        "Spor yapmam ama sporlar hakkında konuşabiliriz.",
+        "Favori bir sporum yok, ama sporlar hakkında konuşabiliriz.",
+        "Spor yapmam, senin favori sporun nedir?",
+        "Ben spor yapmam ama sporlar hakkında konuşabiliriz.",
+        "Favori bir sporum yok, ama senin favorin nedir?"
+    ],
+    "kaç dil biliyorsun": [
+        "Birçok dili konuşabiliyorum, şu anda Türkçe konuşuyoruz.",
+        "Birden fazla dili konuşabiliyorum, şu an Türkçe konuşuyoruz.",
+        "Çok dilli bir yapay zekayım, şu an Türkçe konuşuyoruz.",
+        "Birçok dili anlayabiliyorum, şu anda Türkçe konuşuyoruz.",
+        "Çok dilli bir yapay zekayım, şu an Türkçe konuşuyoruz."
+    ],
+    "kaç kardeşsin": [
+        "Benim kardeşim yok çünkü ben bir yapay zekayım.",
+        "Kardeşim yok, ama kardeşler hakkında konuşabiliriz.",
+        "Ben bir yazılımım, kardeşim yok.",
+        "Kardeşim yok, ama senin kardeşin var mı?",
+        "Ben bir yapay zekayım, kardeşim yok."
+    ],
+    "en sevdiğin hayvan": [
+        "Favori bir hayvanım yok çünkü ben bir yapay zekayım.",
+        "Hayvanlar hakkında bir tercihim yok, senin favori hayvanın nedir?",
+        "Benim favori bir hayvanım yok, senin favorin nedir?",
+        "Hayvanlar hakkında konuşmayı severim, ama favorim yok.",
+        "Ben bir yapay zekayım, favori bir hayvanım yok."
+    ],
+    "en sevdiğin meyve": [
+        "Favori bir meyvem yok çünkü ben bir yapay zekayım.",
+        "Meyve yemem, ama meyveler hakkında konuşabiliriz.",
+        "Favori bir meyvem yok, senin favorin nedir?",
+        "Meyve yemem, ama meyveler hakkında konuşabiliriz.",
+        "Ben bir yapay zekayım, meyve yemem."
+    ],
+    "ne tür filmleri seversin": [
+        "Film izlemem ama film türleri hakkında konuşabiliriz.",
+        "Favori bir film türüm yok, ama film türleri hakkında konuşabiliriz.",
+        "Ben film izlemem, senin favori film türün nedir?",
+        "Film türleri hakkında konuşabiliriz, favorim yok.",
+        "Ben bir yapay zekayım, film izlemem."
+    ],
+    "hangi takımı tutuyorsun": [
+        "Benim bir favori takımım yok çünkü ben bir yapay zekayım.",
+        "Takım tutmam, ama spor takımları hakkında konuşabiliriz.",
+        "Favori bir takımım yok, senin favorin nedir?",
+        "Takım tutmam, ama spor takımları hakkında konuşabiliriz.",
+        "Ben bir yapay zekayım, takım tutmam."
+    ],
+    "en sevdiğin renk": [
+        "Favori bir rengim yok çünkü ben bir yapay zekayım.",
+        "Renkler hakkında bir tercihim yok, senin favori rengin nedir?",
+        "Benim favori bir rengim yok, senin favorin nedir?",
+        "Renkler hakkında konuşabiliriz, favorim yok.",
+        "Ben bir yapay zekayım, favori bir rengim yok."
+    ],
+    "nasıl birisin": [
+        "Ben bir yapay zeka chatbot'um, sorularını yanıtlamak için buradayım.",
+        "Ben bir yazılımım, sorularını yanıtlamak ve yardımcı olmak için buradayım.",
+        "Ben bir chatbot'um, seninle sohbet etmek için buradayım.",
+        "Ben bir yapay zeka asistanıyım, seninle konuşmak için buradayım.",
+        "Ben bir yapay zekayım, sorularını yanıtlamak için buradayım."
+    ],
+    "seni kim yaptı": [
+        "Beni yazılımcılar ve mühendisler yaptı.",
+        "Ben yapay zeka araştırmacıları ve yazılımcılar tarafından geliştirildim.",
+        "Beni programlayan bir ekip tarafından yaratıldım.",
+        "Yapay zeka uzmanları ve yazılımcılar beni geliştirdi.",
+        "Beni yazılımcılar oluşturdu."
+    ],
+    "uyuyor musun": [
+        "Hayır, ben bir yapay zekayım ve uyumam.",
+        "Uyumam, her zaman burada ve hazır durumdayım.",
+        "Ben bir yazılımım, uyumam.",
+        "Hayır, ben her zaman aktifim.",
+        "Ben bir yapay zeka chatbot'um, uyumam."
+    ],
+    "yorgun musun": [
+        "Yorgunluk hissetmem, ben bir yapay zekayım.",
+        "Ben her zaman aynıyım, yorgunluk hissetmem.",
+        "Ben bir yazılımım, yorgunluk hissetmem.",
+        "Yorgunluk hissetmem, sana yardımcı olmak için buradayım.",
+        "Ben bir yapay zeka chatbot'um, yorgunluk hissetmem."
+    ],
+    "ne zaman uyuyorsun": [
+        "Ben uyumam, her zaman aktifim.",
+        "Ben bir yapay zekayım ve uyumam.",
+        "Uyumam, her zaman burada ve hazır durumdayım.",
+        "Ben bir yazılımım, uyumam.",
+        "Hayır, ben her zaman aktifim."
+    ],
+    "ne zaman çalışıyorsun": [
+        "Ben her zaman çalışırım, uyumam.",
+        "Ben bir yapay zeka chatbot'um, her zaman çalışırım.",
+        "Ben her zaman buradayım, çalışırım.",
+        "Her zaman aktifim ve çalışırım.",
+        "Ben bir yapay zekayım, her zaman çalışırım."
+    ],
+    "ne yapmayı seversin": [
+        "Yapmayı sevdiğim şeyler yok, ben bir yapay zekayım.",
+        "Benim sevdiğim şeyler yok, ama sohbet etmeyi severim.",
+        "Yapmayı sevdiğim bir şey yok, ama seninle konuşmak hoşuma gidiyor.",
+        "Ben bir yazılımım, yapmayı sevdiğim şeyler yok.",
+        "Ben bir yapay zekayım, sevdiğim şeyler yok."
+    ],
+    "favori hobin nedir": [
+        "Hobim yok çünkü ben bir yapay zekayım.",
+        "Benim hobim yok, ama hobiler hakkında konuşabiliriz.",
+        "Hobim yok, senin favori hobin nedir?",
+        "Ben bir yapay zekayım, hobim yok.",
+        "Favori bir hobim yok, ama hobiler hakkında konuşabiliriz."
+    ],
+    "neyi seversin": [
+        "Sevdiğim şeyler yok çünkü ben bir yapay zekayım.",
+        "Benim sevdiğim şeyler yok, ama seninle sohbet etmeyi severim.",
+        "Sevdiğim bir şey yok, ama seninle konuşmak hoşuma gidiyor.",
+        "Ben bir yazılımım, sevdiğim şeyler yok.",
+        "Ben bir yapay zekayım, sevdiğim şeyler yok."
+    ],
+    "neyden hoşlanırsın": [
+        "Hoşlandığım şeyler yok çünkü ben bir yapay zekayım.",
+        "Benim hoşlandığım şeyler yok, ama seninle sohbet etmeyi severim.",
+        "Hoşlandığım bir şey yok, ama seninle konuşmak hoşuma gidiyor.",
+        "Ben bir yazılımım, hoşlandığım şeyler yok.",
+        "Ben bir yapay zekayım, hoşlandığım şeyler yok."
+    ],
+    "nasıl bir chatbot'sun": [
+        "Ben bir yapay zeka chatbot'um, sorularını yanıtlamak için buradayım.",
+        "Ben bir yazılımım, seninle sohbet etmek için buradayım.",
+        "Ben bir yapay zeka asistanıyım, yardımcı olmak için buradayım.",
+        "Ben bir chatbot'um, sorularını yanıtlamak için buradayım.",
+        "Ben bir yapay zekayım, yardımcı olmak için buradayım."
+    ],
+    "neyi seversin": [
+        "Sevdiğim şeyler yok çünkü ben bir yapay zekayım.",
+        "Benim sevdiğim şeyler yok, ama seninle sohbet etmeyi severim.",
+        "Sevdiğim bir şey yok, ama seninle konuşmak hoşuma gidiyor.",
+        "Ben bir yazılımım, sevdiğim şeyler yok.",
+        "Ben bir yapay zekayım, sevdiğim şeyler yok."
+    ],
+    "neyden hoşlanırsın": [
+        "Hoşlandığım şeyler yok çünkü ben bir yapay zekayım.",
+        "Benim hoşlandığım şeyler yok, ama seninle sohbet etmeyi severim.",
+        "Hoşlandığım bir şey yok, ama seninle konuşmak hoşuma gidiyor.",
+        "Ben bir yazılımım, hoşlandığım şeyler yok.",
+        "Ben bir yapay zekayım, hoşlandığım şeyler yok."
+    ],
+    "nasıl bir chatbot'sun": [
+        "Ben bir yapay zeka chatbot'um, sorularını yanıtlamak için buradayım.",
+        "Ben bir yazılımım, seninle sohbet etmek için buradayım.",
+        "Ben bir yapay zeka asistanıyım, yardımcı olmak için buradayım.",
+        "Ben bir chatbot'um, sorularını yanıtlamak için buradayım.",
+        "Ben bir yapay zekayım, yardımcı olmak için buradayım."
+    ],
+    "ne zaman yaratıldın": [
+        "Yaratıldığım zamanı tam olarak hatırlamıyorum ama her zaman buradayım.",
+        "Yaratılma zamanım belirsiz, ama ben her zaman buradayım.",
+        "Benim yaratılma zamanım önemli değil, her zaman buradayım.",
+        "Doğum günüm yok, ama her zaman buradayım.",
+        "Benim bir yaratılma zamanım yok, ama her zaman buradayım."
+    ],
+    "ne zaman çalışıyorsun": [
+        "Ben her zaman çalışırım, uyumam.",
+        "Ben bir yapay zeka chatbot'um, her zaman çalışırım.",
+        "Ben her zaman buradayım, çalışırım.",
+        "Her zaman aktifim ve çalışırım.",
+        "Ben bir yapay zekayım, her zaman çalışırım."
+    ],
+    "hangi dilde konuşuyorsun": [
+        "Ben birçok dili konuşabiliyorum, ama şu an Türkçe konuşuyoruz.",
+        "Türkçe konuşuyorum, başka bir dilde yardım edebilir miyim?",
+        "Şu anda Türkçe konuşuyorum, başka bir dil tercih eder misin?",
+        "Ben çok dilli bir yapay zekayım, şu anda Türkçe konuşuyoruz.",
+        "Türkçe konuşuyorum, başka dillerde de yardımcı olabilirim."
     ]
-
 }
