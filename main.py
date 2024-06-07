@@ -23,28 +23,3 @@ def chatbot_ile_sohbet(istem, dialoglar):
     else:
         return "Üzgünüm, bunun hakkında konuşacak bilgiye sahip değilim."
 
-def yeni_dialog_ekle(dialoglar):
-    yeni_istem = input("Yeni istem: ").lower().strip()
-    yeni_yanit = input("Yeni yanıt: ").strip()
-    if yeni_istem in dialoglar:
-        dialoglar[yeni_istem].append(yeni_yanit)
-    else:
-        dialoglar[yeni_istem] = [yeni_yanit]
-    save_dialogs('diyaloglar.json', dialoglar)
-    print("Yeni dialog eklendi!")
-
-dialoglar = load_dialogs('diyaloglar.json')
-
-print("Chatbot'a hoş geldiniz! Çıkış yapmak için 'çıkış' yazın.")
-print("Yeni dialog eklemek için 'yeni dialog ekle' yazın.")
-
-while True:
-    istem = input("Sen: ")
-    if istem.lower().strip() == "çıkış":
-        print("Chatbot: Görüşmek üzere!")
-        break
-    elif istem.lower().strip() == "yeni dialog ekle":
-        yeni_dialog_ekle(dialoglar)
-    else:
-        yanit = chatbot_ile_sohbet(istem, dialoglar)
-        print(f"Chatbot: {yanit}")
