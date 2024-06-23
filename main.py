@@ -41,3 +41,13 @@ print("Yeni dialog eklemek için 'yeni dialog ekle' yazın.")
 
 
 
+while True:
+    istem = input("Sen: ")
+    if istem.lower().strip() == "çıkış":
+        print("Chatbot: Görüşmek üzere!")
+        break
+    elif istem.lower().strip() == "yeni dialog ekle":
+        yeni_dialog_ekle(dialoglar)
+    else:
+        yanit = chatbot_ile_sohbet(istem, dialoglar)
+        print(f"Chatbot: {yanit}")
